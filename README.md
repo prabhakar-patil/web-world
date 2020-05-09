@@ -8,13 +8,7 @@ Modify the root for web server and create your static pages.
 
 0. docker pull nginx
 1. mkdir -p ~/docker-nginx/html
-2. cat > ~/docker-nginx/html/index.html << EOF
-<html>
-  <body>
-     <h1>Hello World!</h1>
-  </body>
-</html>
-EOF
+2. create and write ~/docker-nginx/html/index.html
 3. cd web-server
 4. ./nginx-run.sh
 
